@@ -10,7 +10,7 @@ const MainScreen = () => {
     dispatch(updateProductStatus({ productId, status }));
   };
 
-  // Fetch order data (mock BE call)
+  
   React.useEffect(() => {
     const fetchData = async () => {
       const response = await fetch("/api/order");
